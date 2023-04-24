@@ -73,7 +73,7 @@
 - Doesnt have a hop limit like RIP
 - uses wildcard mask (Inverted Subnetmask)
 
-![image](https://user-images.githubusercontent.com/110488017/234016187-6316e371-a528-44f1-b1db-377afacfd041.png)
+![image](https://user-images.githubusercontent.com/110488017/234041490-11f16f50-2810-4296-8fa2-711597bb6032.png)
 
 ### Example of wildcards
 
@@ -91,4 +91,15 @@
 
 ![image](https://user-images.githubusercontent.com/110488017/234020344-32b737c6-8361-4426-9fbd-c4713159aae1.png)
 
+## LAB on EIGRP
+
+![image](https://user-images.githubusercontent.com/110488017/234035111-8ca12b11-c3b4-4c59-a9f3-a445dd756a88.png)
+
+![image](https://user-images.githubusercontent.com/110488017/234016187-6316e371-a528-44f1-b1db-377afacfd041.png)
+
+### Loopback Interfaces
+![image](https://user-images.githubusercontent.com/110488017/234034830-29e36b8e-d446-409e-85d8-b5103bd06833.png)
+
+### To enable EIGRP on all interfaces at once ( doing invidually is recommended )
+![image](https://user-images.githubusercontent.com/110488017/234039510-22bc0e6a-6bd0-4e67-a39b-b08ecbea6c2c.png)
 
