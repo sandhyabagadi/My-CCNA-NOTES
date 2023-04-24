@@ -39,5 +39,34 @@
 
 ![image](https://user-images.githubusercontent.com/110488017/233995021-50de8811-a84a-4fbc-a1cb-ced4bf8d9cae.png)
 
+## RIP
+
+- Metric - Hopcount (MAX-15)
+- 3 versions - 1,2, RIPng(RIP next gen) for IPV6
+- 2 types of messages 
+  - request and response
+- Sends the table every 30 secs by default
+
+![image](https://user-images.githubusercontent.com/110488017/234011428-9a16735d-ebc0-448a-a57b-265116c6e837.png)
+
+- The network command will look for infaces which fall under that classfull network and activate RIP on those interfaces.
+- Form adjacencies with the neighboring RIP enabled routers
+- Advertise the prefix.
+
+### Passive interface
+
+- RIP routers which are not connected to other routers should be kept in passive so that unnessesary advertisements wont take place.
+
+![image](https://user-images.githubusercontent.com/110488017/234012858-3f522869-fc71-4c11-873f-7268de9cbcc4.png)
+
+### Default information originate
+
+- To share the configured default route to other routers.
+
+![image](https://user-images.githubusercontent.com/110488017/234013170-cbb66e26-9e4a-48e8-af5c-cec8790979a1.png)
+
+
+
+
 
 
