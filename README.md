@@ -26,3 +26,18 @@
 ### Floating Static Routes
 
 - A floating static route is used as a backup route. It has a manually configured administrative distance greater than that of the primary route and therefore would not be in the routing table until the primary route fails.
+
+### LAB on Floating Static Routes
+
+![image](https://user-images.githubusercontent.com/110488017/233990243-728c4544-91e3-4487-9a62-0314a21a56a7.png)
+
+![image](https://user-images.githubusercontent.com/110488017/233994644-54bc0dec-3ec1-4916-912c-e22a6b0df234.png)
+
+![image](https://user-images.githubusercontent.com/110488017/233994746-f145d5be-da78-4192-8ae9-060c2820d4ea.png)
+
+![image](https://user-images.githubusercontent.com/110488017/233994832-9e489a98-9faf-4b15-95d4-2056e351ef38.png)
+
+![image](https://user-images.githubusercontent.com/110488017/233995021-50de8811-a84a-4fbc-a1cb-ced4bf8d9cae.png)
+
+
+
