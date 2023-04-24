@@ -46,6 +46,7 @@
 - 2 types of messages 
   - request and response
 - Sends the table every 30 secs by default
+- Multicast to - 224.0.0.9
 
 ![image](https://user-images.githubusercontent.com/110488017/234011428-9a16735d-ebc0-448a-a57b-265116c6e837.png)
 
@@ -65,8 +66,29 @@
 
 ![image](https://user-images.githubusercontent.com/110488017/234013170-cbb66e26-9e4a-48e8-af5c-cec8790979a1.png)
 
+## Enhanced Interior Gateway Routing Protocol (EIGRP)
 
+- Advanced/ Hybrid Distance vector routing protocol
+- can perform unequal cost Load balancing
+- Doesnt have a hop limit like RIP
+- uses wildcard mask (Inverted Subnetmask)
 
+![image](https://user-images.githubusercontent.com/110488017/234016187-6316e371-a528-44f1-b1db-377afacfd041.png)
 
+### Example of wildcards
+
+![image](https://user-images.githubusercontent.com/110488017/234016513-5e19e709-6bfd-427c-9e12-d38480540a28.png)
+
+#### Metric
+
+- EIGRP determines the value of the path using five metrics: bandwidth, load, delay, reliability and MTU.
+- EIGRP uses five different messages to communicate with its neighbor routers. EIGRP messages are Hello, Update, Query, Reply, and Acknowledgement.
+
+#### Router ID
+- The router ID, a 32-bit number, uniquely identifies the router within an autonomous system (AS) (see Autonomous systems)
+
+- EIGRP automatically selects the highest IP address on any active loopback interface as the router ID. If there is no loopback interface then the highest IP address on any active interface is used.
+
+![image](https://user-images.githubusercontent.com/110488017/234020344-32b737c6-8361-4426-9fbd-c4713159aae1.png)
 
 
